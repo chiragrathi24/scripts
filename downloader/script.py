@@ -24,7 +24,6 @@ def instagram_dp(username):
 	play.close()
 
 	file = urllib.request.urlretrieve(img, "profile.jpg")
-	resize(file)
 	browser.close()
 
 def main():
